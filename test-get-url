@@ -1,0 +1,4 @@
+from wsgiref.util import request_uri
+import requests
+res = requests.get ('https://manning.com')
+print(res)
